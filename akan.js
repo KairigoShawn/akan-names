@@ -33,6 +33,7 @@ const getakanname = function (e) {
   } else {
     return alert("Please select Gender");
   }
+  document.getElementById("akan-form").reset();
 };
 
 document.querySelector("#akan-form").addEventListener("submit", getakanname);
