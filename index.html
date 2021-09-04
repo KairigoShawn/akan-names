@@ -4,12 +4,13 @@
 <head>
   <title>Akan Name Generator</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 
 <body>
   <h1>Welcome to the Akan Name Generator</em></h1>
   <hr>
-  <div>
+  <div class="intro-container">
     <div class="intro">
       <h2><em>What are Akan Names?</em></h2>
       <p>To understand this you need to know who the Akan people are.
@@ -23,7 +24,9 @@
     </div>
   </div>
   <br>
-  <div>
+  
+  
+  <div class="genderNames">
     <div class="male">
       <h3><em>Male Akan Names</em></h3>
       <ul>
@@ -50,6 +53,38 @@
 
     </div>
   </div>
+  <br>
+  <br>
+  <div class="form-div">
+    <div class="form-header">
+      <h2>Please fill in the form appropriately to get your Akan Name</h2>
+    </div>
+    <div class="form">
+      <form id="akan-form">
+        <label for="selected-date">Select Date:</label>
+        <input type="date" id="selected-date" name="selected-date" value="">
+        <div class="form-check">
+          <label class="form-check-label" for="male-radio-btn">
+            Male
+          </label>
+          <input class="form-check-input" type="radio" name="gender" id="male-radio-btn">
+        </div>
+        <div class="form-check">
+          <label class="form-check-label" for="female-radio-btn">
+            Female
+          </label>
+          <input class="form-check-input" type="radio" name="gender" id="female-radio-btn">
+        </div>
+
+        <input type="submit" value="Submit" name="submit">
+      </form>
+    </div>
+        
+    
+   
+    
+  </div>
+  <script src="akan.js"></script>
 </body>
 
 </html>
