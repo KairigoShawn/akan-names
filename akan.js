@@ -1,5 +1,6 @@
 const getakanname = function (e) {
-   const femaleNames = [
+  e.preventDefault();
+  const femaleNames = [
     "Akosua",
     "Adwoa",
     "Abenaa",
