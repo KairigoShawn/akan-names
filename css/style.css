@@ -1,0 +1,19 @@
+body{
+  background-image: url("../images/Ghana.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+h1{
+  text-align: center;
+}
+
+.intro{
+  float: left;
+  padding-right: 200px;
+}
+
+.image-div{
+  float: right;
+  
+}
