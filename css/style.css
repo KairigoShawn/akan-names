@@ -1,19 +1,31 @@
-body{
+body {
   background-image: url("../images/Ghana.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
-h1{
+h1 {
+  font-size: 50px;
   text-align: center;
 }
 
-.intro{
+.intro {
   float: left;
-  padding-right: 200px;
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 600px;
+  padding-right: 400px;
 }
 
-.image-div{
+.image-div {
   float: right;
-  
+  padding: 150px;
+  margin-right: 100px;
+}
+
+#akanStatue {
+  width: inherit;
+  height: 500px;
+  border-radius: 100pc;
 }
