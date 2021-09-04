@@ -33,8 +33,15 @@ h1 {
 .genderNames {
   display: flex;
 }
+
+h2 {
+  margin-left: 100px;
+}
+
 .male {
   float: left;
+  margin-right: 100px;
+  margin-left: 20px;
 }
 
 .female {
